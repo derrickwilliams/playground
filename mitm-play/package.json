@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "babel -D -s false -d ./build ./src"
+    "build": "babel -D -s false -d ./build ./src",
+    "start": "node ."
   },
   "devDependencies": {
     "@d323/deps-bundle-dev": "^0.0.8"
