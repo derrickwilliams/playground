@@ -1,0 +1,15 @@
+{
+  "name": "@d323/mitm-play",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel -D -s false -d ./build ./src"
+  },
+  "devDependencies": {
+    "@d323/deps-bundle-dev": "^0.0.8"
+  },
+  "dependencies": {
+    "@d323/deps-bundle-node": "^0.0.1"
+  }
+}
